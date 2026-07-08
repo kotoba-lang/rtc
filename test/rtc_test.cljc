@@ -13,7 +13,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'rtc)))))
+    (is (some? (find-ns 'rtc)))))
 
 ;; ── media ──────────────────────────────────────
 
