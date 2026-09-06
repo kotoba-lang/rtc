@@ -7,7 +7,7 @@
   rather than JSON — a zero-dep portable equivalent to the original's
   `serde_json`, since payload is only ever consumed by other CLJC code
   in this migration, not a real JS/Rust wire peer."
-  (:require [clojure.edn :as edn]))
+  (:require [kotoba.lang.edn :as edn]))
 
 (def signal-types #{:offer :answer :ice-candidate :join :leave :position :data})
 
