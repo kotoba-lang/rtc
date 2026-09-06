@@ -3,7 +3,7 @@
   (kami-engine/kami-rtc/src/{media,peer,room,signal,spatial}.rs `mod
   tests`, deleted PR #82)."
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.edn :as edn]
+            [kotoba.lang.edn :as edn]
             [rtc]
             [rtc.media :as media]
             [rtc.peer :as peer]

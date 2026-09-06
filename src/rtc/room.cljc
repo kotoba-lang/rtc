@@ -4,7 +4,7 @@
   a KNP ReliableOrdered channel and media exchanged via WebRTC peer
   connections (mesh topology). Restored from kami-rtc's `room` module
   (deleted PR #82)."
-  (:require [clojure.edn :as edn]
+  (:require [kotoba.lang.edn :as edn]
             [rtc.media :as media]
             [rtc.peer :as peer]
             [rtc.signal :as signal]
