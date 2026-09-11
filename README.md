@@ -28,7 +28,7 @@ CLJC at time of writing).
 Restored — all 5 modules ported from the original 1027-line Rust
 source (`lib.rs` + `media.rs` + `peer.rs` + `room.rs` + `signal.rs` +
 `spatial.rs`), with all 15 original Rust unit tests mirrored 1:1 in
-`test/rtc_test.cljc` (+1 smoke test) — 16 tests / 44 assertions, 0
+`test/rtc_test.cljk` (+1 smoke test) — 16 tests / 44 assertions, 0
 failures. Pure data + pure functions throughout; no IO/GPU.
 
 ## Develop
